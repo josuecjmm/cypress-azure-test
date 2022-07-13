@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "cypress run --reporter junit \\\n  --reporter-options \"mochaFile=results/my-test-output.xml,toConsole=true\"",
     "cypress:open": "./node_modules/.bin/cypress open"
   },
   "repository": {
