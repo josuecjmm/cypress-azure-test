@@ -1,0 +1,23 @@
+{
+  "name": "cypress-azure-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josuecjmm/cypress-azure-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josuecjmm/cypress-azure-test/issues"
+  },
+  "homepage": "https://github.com/josuecjmm/cypress-azure-test#readme",
+  "dependencies": {
+    "cypress": "^10.3.0"
+  }
+}
